@@ -22,10 +22,6 @@ Uma IDE de sua preferência (Eclipse, IntelliJ, NetBeans, etc.).
 Instruções de Instalação
 Clone o repositório
 
-bash
-
-Copiar
-git clone https://github.com/seu-usuario/estacionamento-java.git
 Abra o projeto na IDE de sua preferência
 
 Navegue até a pasta onde você clonou o projeto e abra-a na sua IDE.
