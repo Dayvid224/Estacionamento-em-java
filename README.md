@@ -32,13 +32,13 @@ Este projeto é uma aplicação de gerenciamento de estacionamento desenvolvida 
 - Execute LoginApp.java como uma aplicação Java.
 
 - estacionamento-java/
-- ├── src/
-- │   ├── EstacionamentoApp.java
-- │   ├── LoginApp.java
-- │   └── Estacionamento.java
-- ├── users.txt
-- ├── placas.csv
-- └── historico.csv
+  ├── src/
+  │   ├── EstacionamentoApp.java
+  │   ├── LoginApp.java
+  │   └── Estacionamento.java
+  ├── users.txt
+  ├── placas.csv
+  └── historico.csv
 
 - LoginApp.java: Gerencia a interface de login e registro de usuários.
 
