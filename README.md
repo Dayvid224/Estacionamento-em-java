@@ -21,11 +21,11 @@ Este projeto é uma aplicação de gerenciamento de estacionamento desenvolvida 
 
 - Navegue até a pasta onde você clonou o projeto e abra-a na sua IDE.
 
-###Navegue até a pasta src
+### Navegue até a pasta src
 
 - No explorador de arquivos da IDE, vá para a pasta src.
 
-###Encontre e execute o arquivo LoginApp.java
+### Encontre e execute o arquivo LoginApp.java
 
 - No diretório src, localize o arquivo LoginApp.java.
 
@@ -52,7 +52,7 @@ Este projeto é uma aplicação de gerenciamento de estacionamento desenvolvida 
 
 - historico.csv: Registra o histórico de movimentações.
 
-###Como Contribuir
+### Como Contribuir
 - Faça um fork deste repositório.
 
 - Crie um branch com sua nova feature (git checkout -b feature/nova-feature).
