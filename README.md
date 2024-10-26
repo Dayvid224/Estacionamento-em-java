@@ -1,74 +1,65 @@
-# Estacionamento-em-java
-Projeto Estacionamento em Java
-Descrição
-Este projeto é uma aplicação de gerenciamento de estacionamento desenvolvida em Java. Ele permite que usuários registrem a entrada e saída de veículos, bem como consultem vagas e vejam o histórico de movimentações.
+# Estacionar-em-java
 
-Funcionalidades
-Registrar a entrada de veículos.
+## Projeto Estacionamento em Java
 
-Registrar a saída de veículos.
+### Descrição
+Este projeto é uma aplicação de gerenciamento de estacionamento desenvolvida em Java. Ele permite que os usuários registrem a entrada e saída de veículos, bem como consultem vagas e vejam o histórico de movimentações.
 
-Consultar vagas ocupadas.
+### Funcionalidades
+- Registrador de entrada de veículos.
+- Registrador de saída de veículos.
+- Consultar vagas ocupadas.
+- Gravar dados de movimentação em um arquivo CSV.
+- Tela de login e registro de usuários.
 
-Gravar dados de movimentação em um arquivo CSV.
+### Requisitos
+- Java Development Kit (JDK) 1.8 ou superior.
+- Uma IDE de sua preferência (Eclipse, IntelliJ, NetBeans, etc.).
 
-Tela de login e registro de usuários.
+### Instruções de Instalação
+-Abra o projeto na IDE de sua preferência
 
-Requisitos
-Java Development Kit (JDK) 1.8 ou superior.
+-Navegue até a pasta onde você clonou o projeto e abra-a na sua IDE.
 
-Uma IDE de sua preferência (Eclipse, IntelliJ, NetBeans, etc.).
+##Navegue até a pasta src
 
-Instruções de Instalação
-Clone o repositório
+-No explorador de arquivos da IDE, vá para a pasta src.
 
-Abra o projeto na IDE de sua preferência
+##Encontre e execute o arquivo LoginApp.java
 
-Navegue até a pasta onde você clonou o projeto e abra-a na sua IDE.
+-No diretório src, localize o arquivo LoginApp.java.
 
-Navegue até a pasta src
+-Execute LoginApp.java como uma aplicação Java.
 
-No explorador de arquivos da IDE, vá para a pasta src.
+-estacionamento-java/
+-├── src/
+-│   ├── EstacionamentoApp.java
+-│   ├── LoginApp.java
+-│   └── Estacionamento.java
+-├── users.txt
+-├── placas.csv
+-└── historico.csv
 
-Encontre e execute o arquivo LoginApp.java
+-LoginApp.java: Gerencia a interface de login e registro de usuários.
 
-No diretório src, localize o arquivo LoginApp.java.
+-EstacionamentoApp.java: Interface principal para o gerenciamento do estacionamento.
 
-Execute LoginApp.java como uma aplicação Java.
+-Estacionamento.java: Contém a lógica de negócios do estacionamento.
 
-Estrutura do Projeto
+-users.txt: Armazena os dados dos usuários registrados.
 
-Copiar
-estacionamento-java/
-├── src/
-│   ├── EstacionamentoApp.java
-│   ├── LoginApp.java
-│   └── Estacionamento.java
-├── users.txt
-├── placas.csv
-└── historico.csv
-LoginApp.java: Gerencia a interface de login e registro de usuários.
+-placas.csv: Armazena os dados de vagas ocupadas.
 
-EstacionamentoApp.java: Interface principal para o gerenciamento do estacionamento.
+-historico.csv: Registra o histórico de movimentações.
 
-Estacionamento.java: Contém a lógica de negócios do estacionamento.
+##Como Contribuir
+-Faça um fork deste repositório.
 
-users.txt: Armazena os dados dos usuários registrados.
+-Crie um branch com sua nova feature (git checkout -b feature/nova-feature).
 
-placas.csv: Armazena os dados de vagas ocupadas.
+-Commit suas mudanças (git commit -m 'Adicionei nova-feature').
 
-historico.csv: Registra o histórico de movimentações.
+-Push para o branch (git push origin feature/nova-feature).
 
-Como Contribuir
-Faça um fork deste repositório.
+-Abra um Pull Request.
 
-Crie um branch com sua nova feature (git checkout -b feature/nova-feature).
-
-Commit suas mudanças (git commit -m 'Adicionei nova-feature').
-
-Push para o branch (git push origin feature/nova-feature).
-
-Abra um Pull Request.
-
-Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
